@@ -4,7 +4,7 @@
 Tugas Kecil 2 IF2211 Strategi Algoritma 
 
 ## Informasi Umum
-- Convex Hull program menggunakan algoritma quickhull dengan konsep divide and conquer menggunakan bahasa python
+program ini merupakan program yang berisi modul myHull untuk membantu mengklasifikasikan dataset yang tersedia dengan menentukan titik mana saja yang membentuk sisi terluar dari suatu kategori dataset. Program ini dibuat menggunakan konsep algoritma Divide and Conquer dan menggunakan bahasa pemograman Python.
 
 ## Requirments
 - Python3
@@ -14,3 +14,13 @@ Tugas Kecil 2 IF2211 Strategi Algoritma
    ``` python
    pip install numpy, pandas, matplotlib, scikit-learn
    ``` 
+
+## HOW TO USE IT
+1. clone repository:
+```
+git clone https://github/kibare/13520111_Tucil2.git
+```
+2. masukkan command berikut pada terminal
+```
+python src/main.py
+```
