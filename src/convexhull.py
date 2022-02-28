@@ -22,9 +22,7 @@ def angle(A,B,C):
     Cx, Cy = C[0]-B[0], C[1]-B[1]
     a = atan2(Ay, Ax)
     c = atan2(Cy, Cx)
-    if a < 0: a += pi*2
-    if c < 0: c += pi*2
-    return (pi*2 + c - a) if a > c else (c - a)
+    return (c - a)
 
 # fungsi untuk membagi 2 sisi kiri atau kanan dimana:
 # kalo determinannya < 0 -> berada di sisi kiri
